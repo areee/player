@@ -209,7 +209,7 @@
   <div id="startup">
     <div id="prompt">
       <p style="padding: 15px">
-        Select your folder, search your songs, create a plalist and listen to your tracks!
+        Valitse kansio, hae kappaleita, luo soittolista ja kuuntele musiikkia!
       </p>
       <input type="file" webkitdirectory directory multiple mozdirectory onchange="getSongs(this.files)">
       <!-- <p style="padding-left: 15px">
@@ -223,14 +223,14 @@
   </div>
   <!-- player ui -->
   <div id="search">
-    <input type="text" placeholder="Search: Song, Artist or Album" spellcheck=off autocomplete=on oninput="runSearch(this.value)">
+    <input type="text" placeholder="Hae kappaleen, artistin tai albumin mukaan" spellcheck=off autocomplete=on oninput="runSearch(this.value)">
   </div>
   <div id="playlist">
     <table id="playtable"></table>
   </div>
   <div id="listtools">
-    <a href="javascript:shuffle()">Shuffle</a> /
-    <a href="javascript:empty()">Clear</a>
+    <a href="javascript:shuffle()">Sekoita</a> /
+    <a href="javascript:empty()">Tyhjennä</a>
     <a>
       <input type="file" webkitdirectory directory multiple mozdirectory onchange="getSongs(this.files)"> </a>
   </div>
