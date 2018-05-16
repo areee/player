@@ -1,6 +1,7 @@
 CACHE MANIFEST
 #rev 6
 index.html
-style.css
-id3v2.js
-16.png
+css/style.css
+js/id3v2.js
+js/script.js
+img/16.png
